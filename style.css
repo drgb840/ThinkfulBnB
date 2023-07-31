@@ -132,6 +132,12 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (max-width: 380px){
+  .logo{
+    font-size: 55px;
+  }
+}
+
 @media all and (min-width: 480px){
   header{
     display: flex;
